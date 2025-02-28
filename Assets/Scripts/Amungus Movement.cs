@@ -41,7 +41,6 @@ public class AmungusMovement: MonoBehaviour
             isAlive = false;
             myAnimator.SetTrigger("isDead");
             stopAnimation = false;
-            SceneManager.LoadScene("GameOver");
         }
         if (isAlive == true)
         {
